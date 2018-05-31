@@ -1,0 +1,9 @@
+<div *ngIf="error" class="error">{{error}}</div>
+<div *ngIf="catsByGender" class="pet-list">
+  <ng-container *ngFor="let gender of catsByGender | keys">
+    <h2>{{gender}}</h2>
+    <ul *ngIf="catsByGender[gender]">
+      <li *ngFor="let cat of catsByGender[gender]">{{cat}}</li>
+    </ul>
+  </ng-container>
+</div>

@@ -1,0 +1,19 @@
+#header {
+    padding: 7px;
+    background-color: #bbb;
+}
+
+nav {
+    padding: 4px;
+    background-color: #eee;
+}
+
+#footer {
+    padding: 7px;
+    background-color: #bbb;
+}
+
+#main-body {
+    border: 1px solid #eee;
+    padding: 7px;
+}
